@@ -1,0 +1,40 @@
+.nav {
+    max-width: 93.75em; // 1500px
+    margin: 0 auto 4rem auto;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 clamp(8vw, 10vw, 6rem);
+
+    @media (max-width: 72.5em) { //1160px
+        margin: 0 auto 3rem auto;
+     }
+}
+
+.header {
+    max-width: 93.75em; // 1500px
+    margin: 0 auto 4rem auto;
+    padding-left: clamp(8vw, 10vw, 6rem);
+    display: flex;
+    min-height: 30rem;
+
+    background: url(/images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 32rem;
+
+    @media (max-width: 84.375em) { //1350px
+        background-size: 27rem;
+    }
+
+    @media (max-width: 72.5em) { //1160px
+        flex-direction: column-reverse;
+        background-position: right top 130px;
+        background-size: 32rem;
+        min-height: 55rem;
+    }
+}
+
+.main {
+    
+}
