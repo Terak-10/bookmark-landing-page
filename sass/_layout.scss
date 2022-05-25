@@ -36,5 +36,30 @@
 }
 
 .main {
-    
+    max-width: 93.75em; // 1500px
+    margin: 0 auto 3rem auto;
+}
+
+.switch {
+    display: flex;
+    width: 50%;
+    max-width: 50rem;
+    margin: 0 auto 4.5rem auto;
+    border-bottom: 1px solid var(--Grayish-Blue);
+    gap: 0.8rem;
+}
+
+.bottom {
+    max-width: 93.75em; // 1500px
+    margin: 0 auto 3rem auto;
+    padding-left: clamp(8vw, 10vw, 6rem);
+    background-color: rgba(0, 128, 0, 0.499);
+    height: 25rem;
+
+     display: flex;
+
+     background: url(/images/bookmark_rectang.png);
+     background-repeat: no-repeat;
+     background-position: bottom left;
+     background-size: 31rem;
 }

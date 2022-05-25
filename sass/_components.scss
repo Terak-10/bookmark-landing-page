@@ -1,3 +1,8 @@
+// HIDDEN
+.hidden {
+    display: none;
+}
+
 // NAV - BAR
 .nav {
     &_logo {
@@ -9,10 +14,6 @@
         gap: 3rem;
         list-style: none;
         align-items: center;
-    }
-
-    &_li {
-        
     }
 
     &_link {
@@ -32,6 +33,7 @@
         border-radius: 5px;
         border: none;
         color: #fff;
+        font-family: 'Rubik', sans-serif;
     }
 }
 
@@ -85,6 +87,7 @@
         color: #fff;
         font-size: 0.95rem;
         margin-right: 0.5rem;
+        font-family: 'Rubik', sans-serif;
     }
 
     &_btn-firefox {
@@ -94,6 +97,7 @@
         border: none;
         border-radius: 5px;
         font-size: 0.95rem;
+        font-family: 'Rubik', sans-serif;
     }
 
     &_btn-chrome:hover,
@@ -134,7 +138,7 @@
 .top {
 
     max-width: 93.75em; // 1500px
-    margin: 0 auto 2rem auto;
+    margin: 0 auto 3.5rem auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,5 +158,72 @@
         @media (max-width: 81.25em) {
             width: 45%;
         }
+    }
+}
+
+// SWITCH 
+.simple {
+    border-bottom: 3px solid rgb(249, 7, 7);
+    color: var(--Very-Dark-Blue) !important;
+}
+
+.switch-box {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    color: var(--Grayish-Blue);
+}
+
+.switch-box:hover {
+    cursor: pointer;
+}
+
+// MAIN - BOTTOM
+//LEFT SIDE
+
+.illustration-2-img,
+.illustration-3-img {
+    padding-left: clamp(3rem, 5vw, 10rem);
+    height: 24rem;
+}
+
+// RIGHT SIDE
+.bottom-right {
+   margin-left: 7rem;
+   align-self: center;
+
+   &_h-2 {
+       margin-bottom: 1.5rem;
+       font-size: 2rem;
+       color: var(--Very-Dark-Blue);
+   }
+
+   &_p {
+       width: 55%;
+       margin-bottom: 2rem;
+       line-height: 1.6;
+       color: var(--Grayish-Blue);
+   }
+
+   &_btn {
+       padding: 0.75rem 1.2rem;
+       border: none;
+       background-color: var(--Soft-Blue);
+       border-radius: 5px;
+       color: #fff;
+       font-family: 'Rubik', sans-serif;
+   }
+
+   &_btn:hover {
+       cursor: pointer;
+   }
+}
+
+.illustration-2,
+.illustration-3 {
+    margin-bottom: 5rem;
+
+    &_p {
+        width: 62% !important;
     }
 }
