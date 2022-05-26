@@ -66,7 +66,7 @@
 
 .extension {
     max-width: 93.75em; // 1500px
-    margin: 0 auto 4rem auto;
+    margin: 0 auto 8rem auto;
     padding: 0 clamp(8vw, 10vw, 6rem);
 }
 
@@ -78,4 +78,28 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+// STAYUP
+.stayup {
+    max-width: 93.75em; // 1500px
+    margin: 0 auto;
+    padding: 3rem clamp(8vw, 10vw, 6rem);
+    background-color: var(--Soft-Blue);
+    height: 22rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer {
+    max-width: 93.75em; // 1500px
+    margin: 0 auto;
+    padding: 0 clamp(8vw, 10vw, 6rem);
+    background-color: var(--Very-Dark-Blue);
+    height: 5rem;
+    display: flex;
+    align-items: center;
 }
