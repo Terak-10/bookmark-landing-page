@@ -37,7 +37,7 @@
 
 .main {
     max-width: 93.75em; // 1500px
-    margin: 0 auto 3rem auto;
+    margin: 0 auto 8rem auto;
 }
 
 .switch {
@@ -62,4 +62,20 @@
      background-repeat: no-repeat;
      background-position: bottom left;
      background-size: 31rem;
+}
+
+.extension {
+    max-width: 93.75em; // 1500px
+    margin: 0 auto 4rem auto;
+    padding: 0 clamp(8vw, 10vw, 6rem);
+}
+
+.faq {
+    max-width: 93.75em; // 1500px
+    margin: 0 auto 4rem auto;
+    padding: 0 clamp(8vw, 10vw, 6rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
