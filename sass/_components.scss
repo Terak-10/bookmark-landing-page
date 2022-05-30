@@ -308,6 +308,7 @@
     background: url(/images/bg-dots.svg);
     background-repeat: no-repeat;
     background-position: top 205px left 0;
+    background-size: contain;
     padding: 1.5rem 0.5rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
@@ -331,7 +332,6 @@
 }
 
 .faq-question {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -346,13 +346,18 @@
         justify-content: space-between;
         align-items: center;
         width: 30rem;
-        border-top: 1px solid var(--Grayish-Blue);
+        border-top: 1px solid hsla(229, 8%, 60%, 0.405);
         height: 3rem;
         padding: 2rem 0;
+        transition: .3s all;
     }
 
-    &_question-box-4 {
-        border-bottom: 1px solid var(--Grayish-Blue);
+    &_question-box:hover &_p {
+        color: var(--Soft-Red);
+    }
+
+    &_question-box:hover {
+        cursor: pointer;
     }
 
     &_btn {
@@ -369,6 +374,29 @@
     &_btn:hover {
         cursor: pointer;
     }
+
+    &_arrow {
+        margin-right: 1.5rem;
+    }
+}
+
+.question-box-4 {
+    border-bottom: 1px solid hsla(229, 8%, 60%, 0.405);
+}
+
+.faq-answer-1,
+.faq-answer-2,
+.faq-answer-3,
+.faq-answer-4 {
+    color: var(--Grayish-Blue);
+    font-size: 0.9rem;
+    width: 30rem;
+    padding-bottom: 1.5rem;
+    line-height: 2;
+}
+
+.faq-answer-4 {
+    border-bottom: 1px solid hsla(229, 8%, 60%, 0.405);
 }
 
 // STAYUP
@@ -393,11 +421,12 @@
     }
 
     &_input {
-        padding: 0.6rem;
+        padding: 0.67rem;
         margin-right: 0.7rem;
         border-radius: 5px;
         width: 60%;
         color: var(--Grayish-Blue);
+        border: none;
     }
 
     &_btn {
