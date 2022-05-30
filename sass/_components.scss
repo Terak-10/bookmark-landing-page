@@ -378,7 +378,34 @@
     &_arrow {
         margin-right: 1.5rem;
     }
+
+    
+    &_arrow-1 {
+        margin-right: 1.5rem;
+        transform: rotate(-180deg);
+        filter: brightness(0) saturate(100%) invert(49%) sepia(74%) saturate(4038%) hue-rotate(334deg) brightness(110%) contrast(95%);
+    }
+
+    &_arrow-2 {
+        margin-right: 1.5rem;
+        transform: rotate(-180deg);
+        filter: brightness(0) saturate(100%) invert(49%) sepia(74%) saturate(4038%) hue-rotate(334deg) brightness(110%) contrast(95%);
+    }
+
+    &_arrow-3 {
+        margin-right: 1.5rem;
+        transform: rotate(-180deg);
+        filter: brightness(0) saturate(100%) invert(49%) sepia(74%) saturate(4038%) hue-rotate(334deg) brightness(110%) contrast(95%);
+    }
+
+    &_arrow-4 {
+        margin-right: 1.5rem;
+        transform: rotate(-180deg);
+        filter: brightness(0) saturate(100%) invert(49%) sepia(74%) saturate(4038%) hue-rotate(334deg) brightness(110%) contrast(95%);
+    }
+    
 }
+
 
 .question-box-4 {
     border-bottom: 1px solid hsla(229, 8%, 60%, 0.405);
