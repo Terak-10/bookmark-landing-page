@@ -23,6 +23,10 @@ simple.addEventListener("click", function(){
     simple.style.borderBottom = "3px solid rgb(249, 7, 7)";
     speedy.style.borderBottom = "none";
     easy.style.borderBottom = "none";
+
+    simple.style.color = "var(--Very-Dark-Blue)";
+    speedy.style.color = "var(--Grayish-Blue)";
+    easy.style.color = "var(--Grayish-Blue)";
 });
 
 speedy.addEventListener("click", function(){ 
@@ -37,6 +41,10 @@ speedy.addEventListener("click", function(){
     simple.style.borderBottom = "none";
     speedy.style.borderBottom = "3px solid rgb(249, 7, 7)";
     easy.style.borderBottom = "none";
+
+    simple.style.color = "var(--Grayish-Blue)";
+    speedy.style.color = "var(--Very-Dark-Blue)";
+    easy.style.color = "var(--Grayish-Blue)";
 });
 
 easy.addEventListener("click", function(){ 
@@ -51,4 +59,8 @@ easy.addEventListener("click", function(){
     simple.style.borderBottom = "none";
     speedy.style.borderBottom = "none";
     easy.style.borderBottom = "3px solid rgb(249, 7, 7)";
+
+    simple.style.color = "var(--Grayish-Blue)";
+    speedy.style.color = "var(--Grayish-Blue)";
+    easy.style.color = "var(--Very-Dark-Blue)";
 });
